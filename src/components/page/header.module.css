@@ -1,0 +1,22 @@
+.Header {
+  height: 50px;
+  border-bottom: 0.5px solid rgba(0, 0, 0, 0.1);
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.Header input {
+  height: 2rem;
+  width: 350px;
+  border-radius: 5px;
+  border: 0.5px solid lightgray;
+  outline: none;
+  font-size: 1rem;
+  padding-left: 0.5rem;
+}
+
+.Header h1 {
+  margin: 0;
+  padding: 0;
+}

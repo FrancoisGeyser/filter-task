@@ -1,0 +1,59 @@
+.userCard {
+  width: 80%;
+  margin: 2rem 1rem;
+  display: flex;
+  gap: 50px;
+  padding: 1rem;
+  border-radius: 8px;
+  border: 0.5px solid gray;
+}
+
+.userCard .avatar {
+  border-radius: 100%;
+  width: 100px;
+  height: 100px;
+}
+
+.userCard .infoBlock {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.userCard .infoBlock h2 {
+  margin: 0 0 1rem 0;
+  padding: 0;
+}
+
+.userCard .infoBlock h4 {
+  margin: 0;
+  padding: 0;
+}
+
+.userCard .infoBlock h4:last-of-type {
+  margin-bottom: 1rem;
+}
+
+.userCard .infoBlock p {
+  margin: 0 0 1rem 0;
+  padding: 0;
+}
+
+.userCard .infoBlock .workHistory {
+  margin-bottom: 1rem;
+}
+
+.infoBlock .workHistory h3 {
+  margin: 0 0 0.25rem 0;
+  padding: 0;
+}
+.infoBlock .workHistory p {
+  margin: 0;
+  padding: 0;
+}
+
+.usersDisplay {
+  height: calc(100vh - 100px);
+  width: 100%;
+  overflow-y: scroll;
+}

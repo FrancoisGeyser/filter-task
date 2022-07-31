@@ -1,0 +1,27 @@
+.filter {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  margin: 0.5rem 0;
+}
+
+.filterContainer {
+  margin: 5px;
+  opacity: 0.4;
+}
+
+.filterLabel {
+  margin-left: 0.5rem;
+}
+
+.filterToggle {
+  min-width: 1rem;
+  min-height: 1rem;
+  margin: 3px;
+  opacity: 0.4;
+  border: 0.5px solid gray;
+  border-radius: 3px;
+  font-weight: bold;
+  text-align: center;
+  color: black;
+}

@@ -1,0 +1,23 @@
+.filtersDisplay {
+  height: calc(100vh - 100px);
+  width: 100%;
+  overflow-y: scroll;
+  padding: 1rem 0 1rem 1rem;
+}
+
+.filtersDisplay h2 {
+  margin: 1rem 0 0 0;
+  cursor: pointer;
+}
+
+.filtersContainer {
+  max-height: 30rem;
+  overflow-y: scroll;
+  padding-left: 0.8rem;
+}
+
+.filtersContainer h4,
+h3,
+h5 {
+  margin: 0;
+}
