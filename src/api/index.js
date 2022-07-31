@@ -3,7 +3,7 @@ import { countryActions } from '../store/reducers/countrySlice'
 
 export async function fetchUniversities(dispatch, state) {
   const response = await fetch(
-    'http://universities.hipolabs.com/search?name=university'
+    'https://universities.hipolabs.com/search?name=university'
   )
   const data = await response.json()
   const sanitizedArray = data.reduce((ag, e) => {

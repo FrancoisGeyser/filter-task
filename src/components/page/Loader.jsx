@@ -9,7 +9,7 @@ const Loader = () => (
         width: 20px;
         height: 20px;
         animation: spin 2s linear infinite;
-        margin-left: 25%;
+        margin-left: 100px;
         margin-top: 10px;
         margin-bottom: 10px;
       }
